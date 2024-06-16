@@ -1,0 +1,14 @@
+# Copyright 2021 Manna Harbour
+# https://github.com/manna-harbour/miryoku
+
+name: 'Build skeletyl'
+on:
+  - workflow_dispatch
+jobs:
+  build:
+    uses: ./.github/workflows/main.yml
+    with:
+      keyboard: '["keyboards/bastardkb/skeletyl/v2/splinky_3"]'
+      alphas: '["qwerty"]'
+      nav: '["vi"]'
+      merge: '["qmk/qmk_firmware/master"]'
