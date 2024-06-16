@@ -11,4 +11,3 @@ jobs:
       keyboard: '["bastardkb/skeletyl/v2/splinky_3"]'
       alphas: '["qwerty"]'
       nav: '["vi"]'
-      merge: '["qmk/qmk_firmware/master"]'

@@ -5,3 +5,6 @@
 
 #pragma once
 
+#define MIRYOKU_ALPHAS QWERTY
+#define MIRYOKU_NAV VI
+
