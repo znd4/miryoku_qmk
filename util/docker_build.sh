@@ -83,5 +83,5 @@ fi
 	-e MAKEFLAGS="$MAKEFLAGS" \
 	qmkfm/qmk_cli \
 	make "$keyboard${keymap:+:$keymap}${target:+:$target}" \
-        MIRYOKU_MAPPING=EXTENDED_THUMBS \
-        MIRYOKU_ALPHAS=QWERTY \
+        MIRYOKU_NAV=VI \
+        MIRYOKU_ALPHAS=QWERTY
